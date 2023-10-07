@@ -1,6 +1,6 @@
 {
   "name": "MultiWiFiManager",
-  "version": "0.9",
+  "version": "0.9.1",
   "description": "A simple implementation to specify multiple WiFi networks and try to connect one after another.",
   "keywords": "wifi, multi, connect-callback",
   "repository":
@@ -20,5 +20,15 @@
     "WiFi": "~2"
   },
   "frameworks": "arduino",
-  "platforms": "espressif32"
+  "platforms": "espressif32",
+  "examples": [
+    {
+        "name": "minimal",
+        "base": "examples/minimal",
+        "files": [
+            "platformio.ini",
+            "src/main.cpp"
+        ]
+    }
+]
 }

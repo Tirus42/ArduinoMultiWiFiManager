@@ -4,6 +4,8 @@
 #include <string>
 #include <Print.h>
 
+#include <vector>
+
 class MultiWiFiManager {
 	private:
 		struct WiFiEntry {
